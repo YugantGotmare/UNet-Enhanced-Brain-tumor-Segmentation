@@ -17,8 +17,15 @@ The bottleneck layer is the deepest layer of the network and serves as a bridge 
 
 ![unet_architecture](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/6b0911e7-45a8-4848-ad80-bb14464422c8)
 
+
 Results:
+
+
+
 ![output2](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/72000151-ce5a-4244-bb0e-38d3e13eff63)
+
+
+
 
 ![output3](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/b540e77f-54c4-42f7-99e8-8cc67e8ddcc2)
 
