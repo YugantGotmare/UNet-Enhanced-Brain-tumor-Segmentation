@@ -1,4 +1,3 @@
-![unet_architecture](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/d6d8a368-eb5a-4f95-8c16-c6bb30e8d25b)# UNet-Enhanced-Brain-tumor-Segmentation
 ### Description
 
 This project is an implementation of a deep learning model for brain tumor segmentation using the UNet architecture. The goal is to accurately identify and delineate brain tumors in MRI images. The UNet architecture is chosen for its ability to capture fine-grained details while maintaining spatial context, which is crucial for accurate segmentation.
