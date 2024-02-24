@@ -15,6 +15,9 @@ The contracting path is similar to a traditional convolutional neural network (C
 ### Bottleneck Layer
 The bottleneck layer is the deepest layer of the network and serves as a bridge between the contracting and expansive paths. It contains a series of convolutional layers that further capture context and spatial information.
 
+### Expansive Path (Decoder)
+The expansive path is designed to localize details and generate the final segmentation mask. It consists of a series of upsampling and convolutional layers that gradually increase the spatial dimensions of the input while reducing the number of feature channels. Skip connections from the contracting path are used to preserve spatial information and aid in the reconstruction of the segmentation mask.
+
 ![unet_architecture](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/6b0911e7-45a8-4848-ad80-bb14464422c8)
 
 
@@ -28,7 +31,3 @@ Results:
 
 
 ![output3](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/b540e77f-54c4-42f7-99e8-8cc67e8ddcc2)
-### Expansive Path (Decoder)
-The expansive path is designed to localize details and generate the final segmentation mask. It consists of a series of upsampling and convolutional layers that gradually increase the spatial dimensions of the input while reducing the number of feature channels. Skip connections from the contracting path are used to preserve spatial information and aid in the reconstruction of the segmentation mask.
-
-
