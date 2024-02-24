@@ -28,12 +28,6 @@ Results:
 
 
 ![output3](https://github.com/YugantGotmare/UNet-Enhanced-Brain-tumor-Segmentation/assets/101650315/b540e77f-54c4-42f7-99e8-8cc67e8ddcc2)
-
-
-
-
-
-
 ### Expansive Path (Decoder)
 The expansive path is designed to localize details and generate the final segmentation mask. It consists of a series of upsampling and convolutional layers that gradually increase the spatial dimensions of the input while reducing the number of feature channels. Skip connections from the contracting path are used to preserve spatial information and aid in the reconstruction of the segmentation mask.
 
